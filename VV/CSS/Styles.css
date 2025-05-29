@@ -1,0 +1,348 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #99a0a775;
+    margin: 0;
+    overflow-x: hidden;
+    text-decoration: none;
+    
+
+}
+
+.Logo {
+    padding-top: 0.4em;
+}
+
+.TopText .material-icons {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.TopText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    background-color: rgb(163, 163, 158);
+    color: rgb(53, 208, 186);
+    transition: color 2s;
+}
+
+.sBar {
+    font-size: 0.8em;
+    border-radius: 2vh;
+    padding: 0.5em; 
+    width: 30%; 
+}
+
+.BottomText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: azure;
+    color: slategray;
+    transition: color 2s;
+    border-top: 0.125em solid black;
+}
+
+.TText {
+    color: inherit;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out;
+    border-radius: 2vh;
+    padding: 0.5vh;
+}
+
+.TText:hover {
+    background-color: rgb(140, 167, 165);
+    color: rgb(254, 254, 213);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Text {
+    color: inherit;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+
+.Text:hover {
+    background-color: slategray;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.TTL {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+
+.dyrtbilde img {
+    width: 100%; 
+    max-width: 800px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.picture-and-text-right {
+    margin-left: 5vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 5vw;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.text-container {
+    align-self: flex-start;
+    margin-left: 5vw; 
+    width: auto;
+}
+
+
+.side-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;    
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease; 
+}
+
+.dyrtbilde:hover .side-image {
+    transform: scale(1.05);
+}
+
+.text1{
+    padding-left: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+}
+
+.text2{
+    margin-bottom: 10vh;
+    padding-left: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 26px;
+    color: #333;
+}
+
+.text3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #5d5d5d;
+    padding: 2px;
+    padding-left: 4vw;
+}
+
+#pris{
+    margin-top: 50px;
+    padding-left: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  }
+  
+
+  .purchase-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+  .offer-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-top: 30px;
+    margin-right: 175px;
+  }
+  
+.InfoBilde{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3em;
+    
+}
+
+
+.Left{
+    width: 100%;
+    text-decoration: none;
+    border-right:solid black ;
+    display: flex;
+    flex-direction: column;
+}
+
+.TBox{
+    display: flex;
+    border: solid black;
+    width: 100%;
+    height: 4em;
+    justify-content: space-around;
+    background-color: white;
+    text-decoration: none;
+    align-items: center;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+   
+}
+
+.InfoBilde a {
+    text-decoration: none;
+}
+
+.InformasjonBilde{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.4;
+
+}
+
+.TBox a :hover{
+    color: red;
+}
+
+.InfoToMål{
+    display: flex;
+    flex-direction: row;
+}
+
+.MålBilde{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+.Right {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    
+
+}
+
+.Right p {
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif; 
+    line-height: 1.6;
+}
+
+.ReviewTitle {
+    font-weight: bold;
+}
+
+.Rating {
+    color: gold; 
+}
+.InfoBilde {
+    margin-top: 20px;
+}
+
+.Fix{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input-container{
+    display: flex;
+    font-size: 2em;
+    border-radius:2em ;
+    padding-right:3em ;
+    gap: 7px;
+    
+}
+
+.input-box{
+    border-radius: 2em;
+}
+
+
+.site-footer {
+    background-color: #dce0e4; 
+    text-align: center; 
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-content a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
